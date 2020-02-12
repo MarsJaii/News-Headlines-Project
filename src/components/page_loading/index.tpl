@@ -1,0 +1,1 @@
+<img src="${require('../../images/loading.gif')}" alt="" class="loading-icon">

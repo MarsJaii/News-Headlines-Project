@@ -1,0 +1,41 @@
+html{
+    height: 100%;
+    font-size: 1.2rem;
+
+    body{
+        height: 100%;
+        margin: 0;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p{
+            font-weight: normal; //去掉粗体
+            margin: 0;
+        }
+
+        a{
+            text-decoration: none; //去掉下划线、上划线、贯穿线等装饰
+            color: #000;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        .app{
+            position: relative;
+            height: 100%;
+            background-color: #f5f7f8;
+
+            .list{
+                overflow-y: auto;
+                background-color: #fff;
+            }
+        }
+    }
+}
+
